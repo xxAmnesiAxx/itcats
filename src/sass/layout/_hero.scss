@@ -1,0 +1,23 @@
+.hero-container {
+  background-color: var(--main-bgc-color);
+}
+
+.hero__title {
+  font-family: var(--secondary-fonts);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: calc(33 / 26);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: var(--main-text-color);
+}
+
+.btn--border {
+  border: var(--defoult-border);
+}
+
+.link {
+
+}
