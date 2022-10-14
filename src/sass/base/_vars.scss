@@ -1,0 +1,70 @@
+:root {
+  /* FONTS */
+  --main-fonts: "Monserrat", sans-serif;
+  --secondary-fonts: "Seymour One", sans-serif;
+
+  /* COLOR TEXT */
+  --main-text-color: #fcfcfc;
+  --secondary-text-color: #131313;
+  --white-text-color: #ffffff;
+  --light-text-time-color: #ababab;
+
+  /* SITE NAVIGATION  TEXT */
+  --defoult-nav-text-color: #f8d24e;
+  --hover-nav-text-color: #0a8817;
+  --focus-nav-tex-color: #fcfcfc;
+  --disable-nav-text-color: #ababab;
+
+  /* SITE BTN  border */
+  --defoult-border: 2px solid #f8d24e;
+  --hover-focus-border: 2px solid #0a8817;
+  --disable-border: 2px solid #ababab;
+  /* SITE BTN  bgc */
+  --defoult-btn-bgc: #f8d24e;
+  --hover-focus-btn-bgc: #0a8817;
+  --disable-btn-bgc: #ababab;
+
+  /* LINK TEXT COLOR */
+  --footer-link-text-color: #7a7a7a;
+  --address-link-text-color: #d6936d;
+
+  /* BACKGROUND SITE COLOR */
+  --main-bgc-color: #84a278;
+  --white-bgc-color: #ffffff;
+  --secondary-bgc-color: #f8d24e;
+
+  /* BGC PRODUCTS CARDS */
+  --ice-cream-bgc: #aec6a5;
+  --coffee-bgc: #efd478;
+  --milk-drinks-bgc: #d6936d;
+  /* BORDER PRODUCTS CARDS */
+  --ice-cream-border: 2px solid #aec6a5;
+  --coffee-border: 2px solid #efd478;
+  --milk-drinks-border: 2px solid #d6936d;
+
+ 
+  --cards-filter: drop-shadow(0px 5.26027px 19.726px rgba(212, 20, 67, 0.1));
+
+
+  /* BOX-SHADOW */
+  --main-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+
+  /* SLIK DOTS */
+  --active-dots-bgc: #84a178;
+  --inactive-dots-bgc: #d9d9d9;
+
+  /* MODAL */
+  /*  MODAL BORDER */
+  --main-modal-border: 2px solid #F8D24E;
+  /* INGREDIENTS VARS */
+  --ingrediends-border: 2px solid #9CBE8F;
+  --ingrediends-bgc: #9CBE8F;
+  --ingrediends-bow-shadow: box-shadow: 0px 6px 20px rgba(10, 136, 23, 0.25);
+
+  /* FORM */
+  --input-form-bgc: background: rgba(248, 210, 78, 0.1);
+  --form-border: 1px solid #84A178;
+
+  /* anim */
+  --animation-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
