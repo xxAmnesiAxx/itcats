@@ -1,0 +1,206 @@
+//Products btn
+
+//mobile
+//tablet
+
+.btn {
+position: absolute;    
+width: 64px;
+min-height: 24px;
+//padding: 10px 23px;
+margin-right: auto;
+margin-left: auto;
+font-family: 'Montserrat';
+font-weight: 600;
+font-size: 8px;
+line-height: calc(10 / 8);
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+color: #000000;
+
+box-sizing: border-box;
+border-radius: 8px;
+border: 2px solid #F8D24E;
+//transition: color var(--animation);
+    
+&:hover {
+border: 2px solid #0A8817;
+}
+
+&:focus {
+color: #FCFCFC;
+border: 2px solid #0A8817;
+}
+
+&:disabled {
+border: 2px solid #ABABAB;  
+}
+
+//desktop 
+    
+@media screen and (min-width: 1200px) {
+width: 134px;
+min-height: 42px;
+padding: 12px 34px;
+font-size: 14px;
+line-height: calc(18 / 14);
+
+border-radius: 10px;
+}
+    
+}
+
+//Read more btn
+
+.hero__btn {
+position: absolute;
+width: 164px;
+min-height: 42px;
+padding: 12px 34px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: calc(18 / 14);
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+color: #000000;
+
+background: #F8D24E;
+border-radius: 10px;
+
+&:hover {
+background: #0A8817;
+}
+    
+&:focus {
+color: #FCFCFC;
+background: #0A8817;
+}
+    
+&:disabled {
+background: #ABABAB;
+}
+
+}
+
+
+//Our Locations btn
+
+.footer__btn {
+position: absolute;
+width: 196px;
+min-height: 42px;
+padding: 12px 34px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: calc(18 / 14);
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+color: #131313;
+    
+background: #F8D24E;
+border-radius: 10px;
+    
+&:hover {
+background: #0A8817;
+ }
+        
+&:focus {
+color: #FCFCFC;
+background: #0A8817;
+}
+        
+&:disabled {
+background: #ABABAB;
+}
+    
+
+}
+
+
+//Franchise btn
+
+.franchise__btn  {
+position: absolute;    
+width: 64px;
+min-height: 24px;
+//padding: 10px 23px;
+margin-right: auto;
+margin-left: auto;
+font-family: 'Montserrat';
+font-weight: 600;
+font-size: 8px;
+line-height: calc(10 / 8);
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+color: #000000;
+    
+box-sizing: border-box;
+border-radius: 8px;
+border: 2px solid #F8D24E;
+//transition: color var(--animation);
+        
+&:hover {
+border: 2px solid #0A8817;
+}
+    
+&:focus {
+color: #FCFCFC;
+border: 2px solid #0A8817;
+}
+    
+&:disabled {
+border: 2px solid #ABABAB;  
+}
+    
+
+}
+
+//Buy now btn
+
+.header__btn {
+position: absolute;
+width: 152px;
+min-height: 42px;
+padding: 12px 34px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: calc(17 / 14);
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+color: #000000;
+        
+background: #F8D24E;
+border-radius: 10px;
+        
+&:hover {
+background: #0A8817;
+}
+            
+&:focus {
+color: #FCFCFC;
+background: #0A8817;
+}
+            
+&:disabled {
+background: #ABABAB;
+}
+        
+}
+    
+
