@@ -3,7 +3,13 @@
 @import './utils/hidden';
 @import './base/base';
 @import './base/container';
+@import './utils/modul';
+@import './base/reset';
 @import './base/vars';
+
+@import './base/modul';
+
+@import './layout/header';
 
 // Hero
 @import './layout/hero';
@@ -15,7 +21,7 @@
 @import './layout/contacts';
 
 // Modal
-@import './utils/modul';
 @import './base/modul';
 @import './components/modul';
 @import './layout/modul';
+

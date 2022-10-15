@@ -1,0 +1,23 @@
+.header {
+  background-color: var(--main-bgc-color);
+}
+.header__logo {
+  width: 41px;
+}
+
+.header__container {
+  display: flex;
+  text-align: center;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.nav__list {
+  display: none;
+}
+
+.header__btn {
+  display: none;
+}
