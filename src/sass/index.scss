@@ -2,9 +2,12 @@
 @import './base/container';
 
 @import './utils/modul';
+@import './base/reset';
 @import './base/vars';
 
 @import './base/modul';
+
+@import './layout/header';
 @import './layout/hero';
 
 @import './components/modul';
