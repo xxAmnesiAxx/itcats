@@ -1,14 +1,13 @@
 // Base
-@import './base/common';
+@import './utils/vars';
 @import './utils/hidden';
+@import './base/common';
+
 @import './base/base';
-@import './base/container';
-@import './utils/modul';
 @import './base/reset';
-@import './base/vars';
+@import './base/container';
 
-@import './base/modul';
-
+// header
 @import './layout/header';
 
 // Hero
@@ -20,8 +19,8 @@
 // Contacts
 @import './layout/contacts';
 
-// Modal
+// Modul
+@import './utils/modul';
 @import './base/modul';
 @import './components/modul';
 @import './layout/modul';
-
