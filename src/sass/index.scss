@@ -1,12 +1,14 @@
 // Base
+@import './base/common';
+@import './base/base';
 @import './base/container';
-
-@import './utils/modul';
 @import './base/vars';
 
-@import './base/modul';
+// Hero
 @import './layout/hero';
 
+// Modal
+@import './utils/modul';
+@import './base/modul';
 @import './components/modul';
-
 @import './layout/modul';
