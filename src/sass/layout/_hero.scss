@@ -229,10 +229,12 @@
   animation-iteration-count: 1;
 
   @media screen and (min-width: 768px) {
-    left: 418px;
+    left: 360px;
+    bottom: -56px;
   }
   @media screen and (min-width: 1200px) {
-    left: 618px;
+    left: 558px;
+    bottom: -100px;
   }
 }
 
