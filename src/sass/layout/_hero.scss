@@ -159,6 +159,9 @@
   border-radius: 8px;
   background: transparent;
   color: #000000;
+
+  transition: border var(--animation-fast);
+
   &:hover {
     border: 2px solid #0a8817;
   }
@@ -171,6 +174,8 @@
 .anchors__link--underline-yellow {
   text-decoration: underline;
   color: var(--defoult-nav-text-color);
+
+  transition: color var(--animation-fast);
 
   &:hover {
     color: var(--hover-nav-text-color);
