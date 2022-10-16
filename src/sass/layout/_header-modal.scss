@@ -30,6 +30,7 @@
   top: 20px;
   right: 20px;
 }
+
 .header-modal__title {
   text-align: center;
   letter-spacing: 0.06em;
@@ -41,6 +42,7 @@
   font-size: 16px;
   line-height: 1.4;
 }
+
 .header-modal__list {
   list-style: none;
   flex-direction: column;
@@ -79,6 +81,7 @@
 }
 .header-modal__label--green {
   border: var(--ice-cream-border);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
     background-color: var(--ice-cream-bgc);
@@ -100,6 +103,7 @@
 
 .header-modal__label--yellow {
   border: var(--coffee-border);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
     background-color: var(--coffee-bgc);
@@ -121,6 +125,7 @@
 }
 .header-modal__label--brown {
   border: var(--milk-drinks-border);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
     background-color: var(--milk-drinks-bgc);
@@ -172,6 +177,11 @@
     padding: 11px 16px;
   }
 }
+
+.form-modal__input:not(:placeholder-shown):required:invalid {
+  border-color: red;
+}
+
 .form-modal__textarea {
   height: 84px;
   resize: none;
@@ -194,3 +204,21 @@
   font-weight: 600;
   line-height: 1.21429;
 }
+
+// .backdrop {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   z-index: 1000;
+//   opacity: 1;
+//   background-color: rgba(105, 160, 107, 0.705);
+//   transition: opacity 0.25s ease-in, visibility 0.25s ease-in;
+// }
+
+// .backdrop.is-hidden {
+//   opacity: 0;
+//   pointer-events: none;
+//   visibility: hidden;
+// }
