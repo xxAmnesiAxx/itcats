@@ -10,7 +10,7 @@
 
   @media screen and (min-width: 1200px) {
     padding-top: 45px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
   }
 }
 
@@ -287,13 +287,13 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     margin-left: 185px;
     width: 151px;
   }
   @media screen and (min-width: 1200px) {
     margin-left: 256px;
-    gap: 32px;
+    gap: 12px;
     width: 200px;
   }
 }
@@ -306,4 +306,16 @@
   @media screen and (min-width: 1200px) {
     font-size: 14px;
   }
+}
+
+.inform__svg {
+  outline: none;
+  object-fit: contain;
+}
+
+.inform__arrow {
+  width: 40px;
+  height: 100%;
+  object-fit: contain;
+  fill: var(--main-text-color);
 }
