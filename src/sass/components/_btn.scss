@@ -92,10 +92,10 @@ background: #ABABAB;
 //Our Locations btn
 
 .footer__btn {
-position: absolute;
+// position: absolute;
 width: 196px;
 min-height: 42px;
-padding: 12px 34px;
+// padding: 12px 34px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -103,8 +103,10 @@ font-size: 14px;
 line-height: calc(18 / 14);
 display: flex;
 align-items: center;
-text-align: center;
-cursor: pointer;
+justify-content: center;
+gap: 6px;
+// text-align: center;
+cursor: url('./../images/cursor.png'), pointer;
 color: #131313;
     
 background: #F8D24E;
@@ -130,24 +132,26 @@ background: #ABABAB;
 //Franchise btn
 
 .franchise__btn  {
-position: absolute;    
-width: 64px;
-min-height: 24px;
-//padding: 10px 23px;
-margin-right: auto;
-margin-left: auto;
+// position: absolute;    
+width: 192px;
+min-height: 42px;
+// padding: 12px 34px;
+// margin-right: auto;
+// margin-left: auto;
 font-family: 'Montserrat';
 font-weight: 600;
-font-size: 8px;
-line-height: calc(10 / 8);
+font-size: 14px;
+line-height: calc(18 / 14);
 display: flex;
 align-items: center;
-text-align: center;
-cursor: pointer;
+justify-content: center;
+gap: 6px;
+// text-align: center;
+cursor: url('./../images/cursor.png'), pointer;
 color: #000000;
-    
+background-color: transparent;    
 box-sizing: border-box;
-border-radius: 8px;
+border-radius: 10px;
 border: 2px solid #F8D24E;
 //transition: color var(--animation);
         
