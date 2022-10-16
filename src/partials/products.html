@@ -6,8 +6,8 @@
       <li class="products-item cream">
         <h3 class="products-item__title">ice cream</h3>
         <p class="products-item__desc">
-          Soft ice cream with a delicate taste. 
-          Made with milk, cream, sugar and natural stabilizer
+          Soft ice cream with a delicate taste. Made with milk, cream, sugar and
+          natural stabilizer
         </p>
         <button class="product-btn" type="button">
           <svg class="arrow-icon">
@@ -19,8 +19,8 @@
       <li class="products-item cofee">
         <h3 class="products-item__title">ice coffee</h3>
         <p class="products-item__desc">
-          Fragrant invigorating drink created from 100% natural 
-          ingredients without the use of preservatives and flavor enhancers
+          Fragrant invigorating drink created from 100% natural ingredients
+          without the use of preservatives and flavor enhancers
         </p>
         <button class="product-btn" type="button">
           <svg class="arrow-icon">
@@ -32,7 +32,7 @@
       <li class="products-item shake">
         <h3 class="products-item__title">milkshakes</h3>
         <p class="products-item__desc">
-          Sweet drinks based on milk and ice cream, supplemented with syrups, 
+          Sweet drinks based on milk and ice cream, supplemented with syrups,
           fruits, berries and other sweets of your choice
         </p>
         <button class="product-btn" type="button">
@@ -45,3 +45,108 @@
     </ul>
   </div>
 </section>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal__btn" type="button" data-modal-close>
+      <svg class="modal__svg-btn" width="20" height="20">
+        <use href="./images/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <h2 class="products-modal_titel">Chololate icecream</h2>
+    <div class="products-modal_img-circle">
+      <span class="circle">
+        <img
+          class="products-modal_img"
+          srcset="
+            ./images/modal/ingredients/chololate@1x.jpg 132w,
+            ./images/modal/ingredients/chololate@2x.jpg 164w
+          "
+          sizes="(min-width: 320px) 132px, 100vw"
+          src="./images/modal/ingredients/chololate@1x.jpg"
+          alt="icecream"
+        />
+      </span>
+    </div>
+
+    <ul class="products-modal_contents">
+      <li class="products-modal_contents-item">
+        <p class="products-modal_contents-text">kcal</p>
+
+        <span class="elips"><p class="span-text">320</p></span>
+      </li>
+      <li class="products-modal_contents-item">
+        <p class="products-modal_contents-text">Prote...</p>
+
+        <span class="elips"><p class="span-text">4g</p></span>
+      </li>
+      <li class="products-modal_contents-item">
+        <p class="products-modal_contents-text">Fats</p>
+
+        <span class="elips"><p class="span-text">8,2g</p></span>
+      </li>
+      <li class="products-modal_contents-item">
+        <p class="products-modal_contents-text">Carbs</p>
+
+        <span class="elips"><p class="span-text">40,4g</p></span>
+      </li>
+    </ul>
+    <h3 class="products-modal_subtitel">Ingredients</h3>
+    <ul class="products-modal_subtitel-list">
+      <li class="products-modal_subtitel-item">Milk</li>
+      <li class="products-modal_subtitel-item">100ml</li>
+    </ul>
+    <ul class="products-modal_subtitel-list">
+      <li class="products-modal_subtitel-item">Belgian chocolate</li>
+      <li class="products-modal_subtitel-item">20g</li>
+    </ul>
+    <ul class="products-modal_subtitel-list">
+      <li class="products-modal_subtitel-item">Cream</li>
+      <li class="products-modal_subtitel-item">150 ml</li>
+    </ul>
+    <ul class="products-modal_subtitel-list">
+      <li class="products-modal_subtitel-item">Cocoa powder</li>
+      <li class="products-modal_subtitel-item">30g</li>
+    </ul>
+    <ul class="products-modal_subtitel-list">
+      <li class="products-modal_subtitel-item">Sugar</li>
+      <li class="products-modal_subtitel-item">40g</li>
+    </ul>
+    <ul class="products-modal_subtitel-list">
+      <li class="products-modal_subtitel-item">Vanilla sugar</li>
+      <li class="products-modal_subtitel-item">10g</li>
+    </ul>
+    <label class="products-modal__label">
+      <input
+        class="products-modal__input"
+        type="text"
+        name="username"
+        autofocus
+        required
+        placeholder="Name"
+      />
+    </label>
+
+    <label class="products-modal__label">
+      <input
+        class="products-modal__input"
+        type="tel"
+        name="phone_number"
+        required
+        placeholder="Phone"
+      />
+    </label>
+    <label class="products-modal__label">
+      <textarea
+        class="products-modal__mesage"
+        name="feedback"
+        rows="5"
+        placeholder="Comment"
+      ></textarea>
+    </label>
+    <div class="products-modal-submit">
+      <button class="products-modal__btn" type="submit">Submit</button>
+    </div>
+  </div>
+</div>
+
+<script src="./modal.js"></script>
