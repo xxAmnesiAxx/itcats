@@ -519,6 +519,8 @@
   visibility: hidden;
 }
 .modal {
+  
+  
   padding: 28px 20px;
   position: absolute;
   top: 50%;
@@ -535,6 +537,7 @@
 
   @media screen and (min-width: 768px) {
     width: 568px;
+    /*height: 995px;*/
   }
 }
 
@@ -558,9 +561,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   fill: rgba(19, 19, 19, 1);
-
   width: 11px;
   height: 11px;
   transition-property: fill;
@@ -748,11 +749,11 @@
   height: 42px;
 
   @media screen and (max-width: 767px) {
-    max-width: 132px;
+    width: 132px;
   }
 
   @media screen and (min-width: 768px) {
-    max-width: 121px;
+    width: 121px;
   }
 }
 
