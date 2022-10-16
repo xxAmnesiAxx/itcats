@@ -313,6 +313,15 @@
   }
 }
 
+.btn-transperent {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
 .inform__svg {
   outline: none;
   object-fit: contain;
