@@ -1,8 +1,9 @@
 .location-modal {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1000;
   width: 100%;
   max-width: 280px;
   min-height: 365px;
@@ -24,7 +25,7 @@
   right: 8px;
   fill: rgba(19, 19, 19, 1);
   background-color: var(--main-text-color);
-  cursor: pointer;
+  cursor: url('./../images/cursor.png'), pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,17 +68,22 @@
   margin-bottom: 24px;
 }
 
+.location-modal__link{
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  font-style: normal;
+  
+  color: var(--secondary-text-color);
+  cursor: url('./../images/cursor.png'), pointer;
+}
+
 .location-modal__btn {
   display: block;
   margin: 0 auto;
-
   color: var(--hero-text);
   background-color: var(--defoult-btn-bgc);
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
   min-width: 134px;
   border-radius: 10px;
   padding: 12px 34px;
