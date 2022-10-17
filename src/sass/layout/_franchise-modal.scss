@@ -33,7 +33,7 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     top: 20px;
     right: 20px;
   }
@@ -60,7 +60,7 @@
 
   margin-bottom: 20px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 24px;
@@ -89,7 +89,7 @@
 
   margin-bottom: 20px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 32px;
 
     font-weight: 400;
@@ -97,7 +97,31 @@
     line-height: 1.38;
   }
 }
+.franchise-modal__register{
+  margin-bottom: 24px;
+  
+    @media screen and (min-width: 768px) {
+      margin-bottom: 32px;
+    }
+}
+.franchise-modal__label{
+  display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 12px;
+    
+      @media screen and (min-width: 768px) {
+        margin-bottom: 16px;
+      }
+    
+}
+.franchise-modal__label:last-child {
+  margin-bottom: 0px;
 
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
+  }
+}
 .franchise-modal__input {
   width: 100%;
   height: 32px;
@@ -109,31 +133,32 @@
 
   outline: transparent;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     height: 42px;
+    max-width: 368px;
   }
 }
 
-.franchise-modal__input {
+/*.franchise-modal__input {
   margin-bottom: 12px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 16px;
   }
-}
+}*/
 
-.franchise-modal__input:last-child {
+/*.franchise-modal__input:last-child {
   margin-bottom: 24px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 32px;
   }
-}
+}*/
 
 .franchise-modal__input-comment {
   display: block;
   width: 100%;
-  height: 64px;
+  /*height: 64px;*/
   padding: 8px 12px;
 
   border: 1px solid var(--main-bgc-color);
@@ -144,8 +169,10 @@
   resize: none;
   outline: transparent;
 
-  @media screen and (min-width: 1200px) {
-    height: 84px;
+  @media screen and (min-width: 768px) {
+    /*height: 84px;*/
+    max-width: 368px;
+    margin: auto;
   }
 }
 
