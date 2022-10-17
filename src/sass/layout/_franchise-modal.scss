@@ -1,5 +1,5 @@
 .franchise-modal {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -12,7 +12,7 @@
   border: var(--main-modal-border);
   border-radius: 10px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     max-width: 570px;
     min-height: 668px;
     padding: 32px 60px;
@@ -20,25 +20,34 @@
 }
 
 .franchise-modal__close-button {
-  width: 16px;
-  height: 16px;
+  border: none;
   position: absolute;
   top: 8px;
   right: 8px;
+  fill: rgba(19, 19, 19, 1);
   background-color: var(--main-text-color);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   @media screen and (min-width: 1200px) {
     top: 20px;
     right: 20px;
-    width: 20px;
-    height: 20px;
   }
 }
-
+.franchise-modal__close-btn {
+  width: 20px;
+  height: 20px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.franchise-modal__close-button:hover .franchise-modal__close-btn {
+  fill: rgba(248, 210, 78, 1);
+}
 .franchise-modal__title {
   font-family: var(--secondary-fonts);
   font-style: normal;
