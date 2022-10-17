@@ -1,0 +1,36 @@
+<div class="location-modal">
+  <button class="location-modal__close-button" type="button" header-modal-close>
+    <svg class="location-modal__close-btn" width="20" height="20">
+      <use href="./images/sprite.svg#close-black"></use>
+    </svg>
+  </button>
+  <p class="location-modal__title">Our Locations</p>
+
+  <div class="location-modal__pic">
+    <picture>
+      <!-- desktop -->
+      <source
+        media="(min-width: 1200px )"
+        srcset="
+          ./images/modal/location/location-modal_lg@1x.jpg 1x,
+          ./images/modal/location/location-modal_lg@2x.jpg 2x
+        "
+      />
+
+      <source
+        media="(max-width: 480px)"
+        srcset="
+          ./images/modal/location/location-modal_sm@1x.jpg 1x,
+          ./images/modal/location/location-modal_sm@2x.jpg 2x
+        "
+      />
+
+      <img
+        src="./images/modal/location/location-modal_lg@1x.jpg"
+        alt="Локація"
+      />
+    </picture>
+  </div>
+
+  <button type="button" class="location-modal__btn">Open map</button>
+</div>
