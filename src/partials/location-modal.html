@@ -1,5 +1,9 @@
-<div class="location-modal">
-  <button class="location-modal__close-button" type="button" header-modal-close>
+<div class="location-modal is-hidden" location-modal>
+  <button
+    class="location-modal__close-button"
+    type="button"
+    location-modal-close
+  >
     <svg class="location-modal__close-btn" width="20" height="20">
       <use href="./images/sprite.svg#close-black"></use>
     </svg>
@@ -32,5 +36,11 @@
     </picture>
   </div>
 
-  <button type="button" class="location-modal__btn">Open map</button>
+  <a
+    href="https://www.google.com.ua/maps/place/10340+Ridgeland+Ave,+Chicago+Ridge,+IL+60415,+%D0%A1%D0%A8%D0%90/@41.7034056,-87.7819292,17z/data=!3m1!4b1!4m5!3m4!1s0x880e39ad302b2c19:0xc808e9b14d04eb2b!8m2!3d41.7034016!4d-87.7797405?hl=ru"
+    class="location-modal__link"
+    target="_blank"
+    rel="noopener noreferrer"
+    ><button type="button" class="location-modal__btn">Open map</button>
+  </a>
 </div>
