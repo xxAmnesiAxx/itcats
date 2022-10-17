@@ -1,7 +1,8 @@
 .contact--bg{
-    background-color: var(--main-bgc-color);
-
-    padding-bottom: 40px;
+background-image: linear-gradient(#84a178, #84a178), url('./../images/6-Reviews/bg-reviews_lg.png');
+    background-position: bottom, top;
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 85%, contain;
 }
 
 .contact{
