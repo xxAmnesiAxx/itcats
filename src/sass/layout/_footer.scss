@@ -170,24 +170,19 @@
   font-weight: 700;
   line-height: 1.52;
 
-  @media screen and (min-width: 1200px) {
-    border-width: 1170px;
-    border-top: 1px solid #E1E1E1;
-  }
-
   @media screen and (min-width: 768px) {
     letter-spacing: 0.02em;
     padding-top: 14px;
     padding-bottom: 13px;
     line-height: 1.86;
   }
-}
 
-.footer-border-box {
-  @media screen and (max-width: 1199px) {
+  @media screen and (min-width: 1200px) {
+    max-width: 1170px;
     border-top: 1px solid #E1E1E1;
   }
 }
+
 
 .footer-copyright__text {
   display: block;
