@@ -2,7 +2,7 @@
   background-color: var(--main-bgc-color);
   padding-bottom: 62px;
   padding-top: 40px;
-
+  
   @media screen and(min-width: 768px) {
     padding-bottom: 0;
   }
@@ -12,15 +12,6 @@
   }
 }
 
-.copyright-box {
-  bottom: 120px;
-  border-top: 1px solid #e1e1e1;
-  width: 100%;
-
-  @media screen and(min-width: 768px) {
-    bottom: 53px;
-  }
-}
 
 .footer-group {
   padding-bottom: 40px;
