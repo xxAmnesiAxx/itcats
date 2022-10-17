@@ -3,6 +3,11 @@
     <p class="about__label">tradition and love</p>
     <h2 class="about__title">how it’s made?</h2>
     <div class="about__wrap">
+      <div class="about__img">
+        <!--  <img srcset="./images/3-About/cow_sm@1x.png 1x,
+        ./images/3-About/cow_sm@2x.png 2x"
+        src="./images/3-About/cow_sm@1x.png" alt="Cow"> -->
+      </div>
       <picture class="about__img">
         <img 
         class="about__cow" 
@@ -14,20 +19,20 @@
       </picture>
       <div class="about-desc">
         <p class="about-desc__text frst-txt">
-          Ice is a place where you will become not only a little happier, but also healthier.
-          Health is the main value for us, and
-          we follow it when creating our handmade desserts.
+          Ice is a place where you will become not only a little happier, but
+          also healthier. Health is the main value for us, and we follow it when
+          creating our handmade desserts.
         </p>
         <p class="about-desc__text scnd-txt">
-          We use traditional recipes and 100% natural ingredients.
-          Our products are so natural that they can be given to children
-          from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23 milkshakes.
+          We use traditional recipes and 100% natural ingredients. Our products
+          are so natural that they can be given to children from the age of
+          three years. Sweets lovers can expect 55 types of ice cream, 15 types
+          of coffee and 23 milkshakes.
         </p>
         <p class="about-desc__text thrd-txt">
-          This is enough to choose ice cream and
-          coffee for any mood!
+          This is enough to choose ice cream and coffee for any mood!
         </p>
-        <button class="about-btn" type="button">
+        <button class="about-btn" type="button" modal-open>
           Read more
           <svg class="about-btn__icon" width="12" height="12">
             <use href="./images/sprite.svg#vector-btn"></use>
@@ -36,8 +41,31 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal About -->
+  <div class="drop" modal>
+    <div class="modal-about">
+      <strong class="modal-about__title">How it’s made?</strong>
+      <div class="frame-wrap">
+        <iframe
+          class="frame-wrap__video"
+          src="https://www.youtube.com/embed/-8MPE74pq4w"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p class="modal-about__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      </p>
+      <button class="modal-about__btn" type="button" modal-close>
+        <svg class="modal-about__icon" width="24" height="24">
+          <use href="./images/sprite.svg#close-black"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
 </section>
-
-
-
-<!-- Modal About -->
