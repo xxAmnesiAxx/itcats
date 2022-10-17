@@ -1,7 +1,10 @@
+.section--bgc {
+  background-color: var(--main-bgc-color);
+}
+
 .hero-container {
   padding-top: 61px;
   position: relative;
-  background-color: var(--main-bgc-color);
 
   @media screen and (min-width: 768px) {
     padding-top: 35px;
