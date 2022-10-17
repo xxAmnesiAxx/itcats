@@ -1,15 +1,18 @@
-.hero-container {
-  padding-top: 61px;
-  position: relative;
+.hero {
   background-color: var(--main-bgc-color);
+}
+
+.hero-container {
+  padding-top: 110px;
+  position: relative;
 
   @media screen and (min-width: 768px) {
-    padding-top: 35px;
+    padding-top: 104px;
     padding-bottom: 32px;
   }
 
   @media screen and (min-width: 1200px) {
-    padding-top: 45px;
+    padding-top: 118px;
     padding-bottom: 80px;
   }
 }
