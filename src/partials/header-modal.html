@@ -1,66 +1,70 @@
-<!-- <div class="backdrop is-hidden" header-modal> -->
+<div class="backdrop is-hidden" header-modal>
   <div class="header-modal">
-  <button class="header-modal__btn" type="button">
-    <svg class="header-modal__icon-close" width="20" height="20">
-      <use href="./images/sprite.svg#close-black"></use>
-    </svg>
-  </button>
+    <button class="header-modal__btn" type="button" header-modal-close>
+      <svg class="header-modal__icon-close" width="20" height="20">
+        <use href="./images/sprite.svg#close-black"></use>
+      </svg>
+    </button>
 
-  <h2 class="header-modal__title">Buy now</h2>
-  <ul class="header-modal__list">
-    <li class="header-modal__item">
-      <label class="header-modal__label--green header-modal__text">
-        <input class="header-modal__input-checkbox hidden" type="checkbox" />ice
-        cream</label
-      >
-    </li>
-    <li class="header-modal__item">
-      <label class="header-modal__label--yellow header-modal__text">
-        <input class="header-modal__input-checkbox hidden" type="checkbox" />ice
-        coffee</label
-      >
-    </li>
-    <li class="header-modal__item">
-      <label class="header-modal__label--brown header-modal__text">
-        <input
-          class="header-modal__input-checkbox hidden"
-          type="checkbox"
-        />milkshake</label
-      >
-    </li>
-  </ul>
-  <form class="form-modal">
-    <div class="form-modal__box">
-      <label class="form-modal__label">
-        <input
-          class="form-modal__input"
-          type="text"
-          name="name"
-          placeholder="Name"
-          required
-          pattern="[a-zA-Zа-яА-ЯіІїЇъЪёЁ`]+"
-        />
-      </label>
-      <label class="form-modal__label">
-        <input
-          class="form-modal__input"
-          type="tel"
-          name="tel"
-          placeholder="Phone"
-          required
-          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-          title="XXX-XXX-XX-XX"
-        /> </label
-      ><label class="form-modal__label">
-        <textarea
-          class="form-modal__input form-modal__textarea"
-          name="comment"
-          placeholder="Comment"
-        ></textarea>
-      </label>
-    </div>
+    <h2 class="header-modal__title">Buy now</h2>
+    <ul class="header-modal__list">
+      <li class="header-modal__item">
+        <label class="header-modal__label--green header-modal__text">
+          <input
+            class="header-modal__input-checkbox hidden"
+            type="checkbox"
+          />ice cream</label
+        >
+      </li>
+      <li class="header-modal__item">
+        <label class="header-modal__label--yellow header-modal__text">
+          <input
+            class="header-modal__input-checkbox hidden"
+            type="checkbox"
+          />ice coffee</label
+        >
+      </li>
+      <li class="header-modal__item">
+        <label class="header-modal__label--brown header-modal__text">
+          <input
+            class="header-modal__input-checkbox hidden"
+            type="checkbox"
+          />milkshake</label
+        >
+      </li>
+    </ul>
+    <form class="form-modal">
+      <div class="form-modal__box">
+        <label class="form-modal__label">
+          <input
+            class="form-modal__input"
+            type="text"
+            name="name"
+            placeholder="Name"
+            required
+            pattern="[a-zA-Zа-яА-ЯіІїЇъЪёЁ`]+"
+          />
+        </label>
+        <label class="form-modal__label">
+          <input
+            class="form-modal__input"
+            type="tel"
+            name="tel"
+            placeholder="Phone"
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="XXX-XXX-XX-XX"
+          /> </label
+        ><label class="form-modal__label">
+          <textarea
+            class="form-modal__input form-modal__textarea"
+            name="comment"
+            placeholder="Comment"
+          ></textarea>
+        </label>
+      </div>
 
-    <button class="form-modal__btn" type="submit">Submit</button>
-  </form>
+      <button class="form-modal__btn" type="submit">Submit</button>
+    </form>
+  </div>
 </div>
-<!-- </div> -->

@@ -3,11 +3,15 @@
     <p class="about__label">tradition and love</p>
     <h2 class="about__title">how it’s made?</h2>
     <div class="about__wrap">
-      <div class="about__img">
-      <!--  <img srcset="./images/3-About/cow_sm@1x.png 1x,
-        ./images/3-About/cow_sm@2x.png 2x"
-        src="./images/3-About/cow_sm@1x.png" alt="Cow"> -->
-      </div>
+      <picture class="about__img">
+        <img 
+        class="about__cow" 
+        srcset="./images/3-About/cow_sm@1x.png 1x, ./images/3-About/cow_sm@2x.png 2x"
+        src="./images/3-About/cow_sm@1x.png" alt="Cow">
+        <source srcset="./images/3-About/cow_sm@1x.png 1x, ./images/3-About/cow_sm@2x.png 2x" media="(min-width: 320px)">
+        <source srcset="./images/3-About/cow_md@1x.png 1x, ./images/3-About/cow_md@2x.png 2x" media="(min-width: 768px)">
+        <source srcset="./images/3-About/cow_lg@1x.png 1x, ./images/3-About/cow_lg@2x.png 2x" media="(min-width: 1200px)">
+      </picture>
       <div class="about-desc">
         <p class="about-desc__text frst-txt">
           Ice is a place where you will become not only a little happier, but also healthier.
@@ -33,3 +37,7 @@
     </div>
   </div>
 </section>
+
+
+
+<!-- Modal About -->
