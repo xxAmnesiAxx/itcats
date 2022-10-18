@@ -360,7 +360,7 @@
 }
 .modal {
   
-  
+  max-height: 990px;
   padding: 28px 20px;
   position: absolute;
   top: 50%;
@@ -557,6 +557,7 @@
 .products-modal__input {
   width: 100%;
   height: 42px;
+  padding-left: 16px;
   border: 1px solid rgba(132, 161, 120, 1);
   border-radius: 10px;
   background-color: rgba(248, 210, 78, 0.1);
@@ -569,6 +570,8 @@
 .products-modal__mesage {
   display: block;
   resize: none;
+  padding-top: 11px;
+  padding-left: 16px;
   outline: transparent;
   border: 1px solid rgba(132, 161, 120, 1);
   border-radius: 10px;
