@@ -1,12 +1,11 @@
 .franchise-modal {
+  overflow: auto;
   position: fixed;
   top: 50%;
   left: 50%;
   z-index: 100;
   transform: translate(-50%, -50%);
-  width: 100%;
-  max-width: 282px;
-  min-height: 674px;
+  /*width: 100%;*/
   background-color: var(--main-text-color);
   padding: 28px 28px;
 
@@ -14,12 +13,22 @@
   border-radius: 10px;
 
   transition: opacity .25s linear, visibility .25s linear;
+  @media screen and (max-width: 768px) {
+      max-width: 280px;
+      height: 100%;
+    }
 
   @media screen and (min-width: 768px) {
     max-width: 570px;
-    min-height: 668px;
+    /*max-height: 668px;*/
     padding: 32px 60px;
   }
+    @media screen and (max-width: 1199px) {
+      width: 568px;
+      height: 100%;
+    }
+  
+    
 }
 
 .franchise-modal__close-button {

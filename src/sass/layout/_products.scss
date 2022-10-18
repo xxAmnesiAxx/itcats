@@ -380,6 +380,12 @@
   pointer-events: none;
   visibility: hidden;
 }
+
+.skroll-to-product, franchise-modal,
+.modal {
+  overflow: auto;
+}
+
 .modal,
 .modal-icecoffee,
 .modal-milkshakes {
@@ -393,14 +399,19 @@
   background: #fcfcfc;
   border: 2px solid #f8d24e;
   border-radius: 10px;
-
-  @media screen and (max-width: 767px) {
+  transition: opacity .25s linear, visibility .25s linear;
+  @media screen and (max-width: 768px) {
     max-width: 280px;
+    height: 100%;
   }
-
+@media screen and (max-width: 1199px) {
+  width: 568px;
+  height: 100%;
+}
   @media screen and (min-width: 768px) {
     width: 568px;
-    /*height: 995px;*/
+    max-width: 995px;
+    /*height: 100%;*/
   }
 }
 
@@ -565,7 +576,7 @@
   padding-bottom: 48px;
 }
 
-.products-modal__label:last-child {
+.products-modal__label:last-of-type {
   margin-bottom: 0px;
   padding-bottom: 32px;
 }
