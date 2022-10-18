@@ -38,11 +38,29 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et
       </p>
-      <button class="inform__btn btn-transperent" type="button">
+      <button class="inform__btn btn-transperent" type="button" hero-open>
         <svg class="inform__svg" width="40" height="40">
           <use class="inform__arrow" href="./images/sprite.svg#arrow-def"></use>
         </svg>
       </button>
+
+      <div class="hero__modal is-hidden--hero" hero-modal>
+        <button
+          class="inform__btn btn-transperent hero-modal-close"
+          type="button"
+          hero-close
+        >
+          <svg class="inform__svg" width="40" height="40">
+            <use
+              class="inform__arrow"
+              href="./images/sprite.svg#arrow-def"
+            ></use>
+          </svg>
+        </button>
+        <a class="hero-modal__link" href="#contacts"
+          >More information about our addresses</a
+        >
+      </div>
     </div>
     <ul class="bgc-icon">
       <li class="bgc-icon__item">
