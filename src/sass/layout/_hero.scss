@@ -199,7 +199,8 @@
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(./../images/1-hero/icecream_sm@2x.png);
+    background-image: url(./../images/1-hero/icecream_sm@2x.png),
+      url(./../images/1-hero/hero-bg_sm.png);
   }
   background-position: left 180% bottom -87px, right 0px bottom 0px;
   background-repeat: no-repeat;
@@ -217,7 +218,8 @@
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(./../images/1-hero/icecream_md@2x.png);
+      background-image: url(./../images/1-hero/icecream_md@2x.png),
+        url(./../images/1-hero/hero-bg_md.png);
     }
     background-position: left 90% bottom -56px, right 0px bottom 0px;
     background-repeat: no-repeat;
@@ -232,7 +234,8 @@
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(./../images/1-hero/icecream_lg@2x.png);
+      background-image: url(./../images/1-hero/icecream_lg@2x.png),
+        url(./../images/1-hero/hero-bg_lg.png);
     }
     background-position: left 92% bottom -86px, right 0px bottom 0px;
     background-repeat: no-repeat;
