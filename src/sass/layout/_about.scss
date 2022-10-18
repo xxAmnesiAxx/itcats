@@ -172,9 +172,21 @@
   font-size: 14px;
   line-height: calc(18 / 14);
   
-  /* display: flex;
-  align-items: center;
-  text-align: center; */
+  
+  transition: color var(--anim);
+  transition: background-color var(--anim);
+  &:hover {
+      background-color: #0a8817;
+    }
+  
+    &:focus {
+      color: #fcfcfc;
+      background-color: #0a8817;
+    }
+  
+    &:disabled {
+      background-color: #ababab;
+    }
   
   color: var(--secondary-text-color);
   &__icon {
