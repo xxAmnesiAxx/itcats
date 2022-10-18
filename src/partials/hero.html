@@ -1,78 +1,124 @@
 <section class="section section--bgc">
-  <div class="bgc-icon">
-    <div class="container hero-container">
-      <div class="information">
-        <div>
-          <h1 class="hero__title">
-            ice cream made with <span class="hero__title-span">passion</span>
-          </h1>
+  <div class="container hero-container">
+    <div class="information">
+      <div>
+        <h1 class="hero__title">
+          ice cream made with <span class="hero__title-span">passion</span>
+        </h1>
 
-          <ul class="anchors">
-            <li class="anchors__item">
-              <a
-                href="#productshero"
-                class="anchors__link anchors__link--border"
-                >Products</a
-              >
-            </li>
-            <li class="anchors__item">
-              <a
-                href="#abouthero"
-                class="anchors__link anchors__link--underline-yellow"
-                >How it’s made?</a
-              >
-            </li>
-          </ul>
-        </div>
-        <ul class="institutions">
-          <li class="institutions__item">
-            <span class="institution__text institutions__number">16</span>
-            <span class="institution__text institutions__name">cafes</span>
+        <ul class="anchors">
+          <li class="anchors__item">
+            <a href="#productshero" class="anchors__link anchors__link--border"
+              >Products</a
+            >
           </li>
-          <li class="institutions__item">
-            <span class="institution__text institutions__number">23</span>
-            <span class="institution__text institutions__name"
-              >food trucks</span
+          <li class="anchors__item">
+            <a
+              href="#abouthero"
+              class="anchors__link anchors__link--underline-yellow"
+              >How it’s made?</a
             >
           </li>
         </ul>
       </div>
-
-      <div class="inform">
-        <p class="inform__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et
-        </p>
-        <button class="inform__btn btn-transperent" type="button">
-          <svg class="inform__svg" width="40" height="40">
-            <use
-              class="inform__arrow"
-              href="./images/sprite.svg#arrow-def"
-            ></use>
-          </svg>
-        </button>
-      </div>
-      <picture class="bgc-icon__item--mobile-none">
-        <source
-          media="(min-width: 1200px)"
-          srcset="
-            ./images/1-hero/plate_lg@1x.png 1x,
-            ./images/1-hero/plate_lg@2x.png 2x
-          "
-        />
-        <source
-          media="(min-width: 768px)"
-          srcset="
-            ./images/1-hero/plate_md@1x.png 1x,
-            ./images/1-hero/plate_md@2x.png 2x
-          "
-        />
-        <img
-          class="bgc-icon__images icon--plato-ice-cream"
-          src="./images/1-hero/plate_md@1x.png"
-          alt=""
-        />
-      </picture>
+      <ul class="institutions">
+        <li class="institutions__item">
+          <span class="institution__text institutions__number">16</span>
+          <span class="institution__text institutions__name">cafes</span>
+        </li>
+        <li class="institutions__item">
+          <span class="institution__text institutions__number">23</span>
+          <span class="institution__text institutions__name">food trucks</span>
+        </li>
+      </ul>
     </div>
+
+    <div class="inform">
+      <p class="inform__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et
+      </p>
+      <button class="inform__btn btn-transperent" type="button">
+        <svg class="inform__svg" width="40" height="40">
+          <use class="inform__arrow" href="./images/sprite.svg#arrow-def"></use>
+        </svg>
+      </button>
+    </div>
+    <ul class="bgc-icon">
+      <li class="bgc-icon__item">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="./images/1-hero/hero-bg_lg.png"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/1-hero/hero-bg_md.png"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./images/1-hero/hero-bg_sm.png"
+          />
+          <img
+            class="bgc-icon__images icon--bg-dots"
+            src="./images/1-hero/hero-bg_sm.png"
+            alt=""
+          />
+        </picture>
+      </li>
+      <li class="bgc-icon__item">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/1-hero/icecream_lg@1x.png 1x,
+              ./images/1-hero/icecream_lg@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/1-hero/icecream_md@1x.png 1x,
+              ./images/1-hero/icecream_md@2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./images/1-hero/icecream_sm@1x.png 1x,
+              ./images/1-hero/icecream_sm@2x.png 2x
+            "
+          />
+          <img
+            class="bgc-icon__images icon--ice-cream"
+            src="./images/1-hero/icecream_sm@1x.png"
+            alt=""
+          />
+        </picture>
+      </li>
+      <li class="bgc-icon__item bgc-icon__item--mobile-none">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/1-hero/plate_lg@1x.png 1x,
+              ./images/1-hero/plate_lg@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/1-hero/plate_md@1x.png 1x,
+              ./images/1-hero/plate_md@2x.png 2x
+            "
+          />
+          <img
+            class="bgc-icon__images icon--plato-ice-cream"
+            src="./images/1-hero/plate_md@1x.png"
+            alt=""
+          />
+        </picture>
+      </li>
+    </ul>
   </div>
 </section>
