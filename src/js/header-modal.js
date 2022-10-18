@@ -1,7 +1,7 @@
 (() => {
   const refs = {
-    openModalBtn: document.querySelector("[header-modal-open]"),
-    closeModalBtn: document.querySelector("[header-modal-close]"),
+    openModalBtn: document.querySelector("[header-open]"),
+    closeModalBtn: document.querySelector("[header-close]"),
     modal: document.querySelector("[header-modal]"),
   };
 
