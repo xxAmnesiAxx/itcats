@@ -343,6 +343,8 @@
   border: none;
   background: transparent;
   padding: 0;
+  position: relative;
+  z-index: 500;
 }
 
 .inform__svg {
@@ -355,4 +357,47 @@
   height: 100%;
   object-fit: contain;
   fill: var(--main-text-color);
+}
+
+.hero__modal {
+  background: transparent;
+  width: 200px;
+  display: flex;
+  gap: 4px;
+  justify-content: space-between;
+  position: absolute;
+  top: 267px;
+  left: 217px;
+  z-index: 700;
+  transition: opacity 250ms;
+
+  @media screen and (min-width: 1200px) {
+    top: 415px;
+    left: 272px;
+    justify-content: left;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.hero__modal.is-hidden--hero {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.hero-modal__link {
+  color: var(--defoult-nav-text-color);
+  transition: color var(--animation-fast);
+  &:hover {
+    color: var(--hover-nav-text-color);
+  }
+  &:focus {
+    color: var(--focus-nav-tex-color);
+  }
+}
+
+.hero-modal-close {
+  position: relative;
+  z-index: 800;
 }
