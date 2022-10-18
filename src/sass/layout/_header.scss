@@ -103,6 +103,9 @@
 .header__btn {
   display: none;
 
+  position: relative;
+  z-index: 1000;
+
   @media screen and (min-width: 768px) {
     display: flex;
     // margin-left: 32px;
@@ -124,13 +127,15 @@
 .header__menu {
   background-color: transparent;
   border: none;
-  cursor: pointer;
+  cursor: url('./../images/cursor.png'), pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 32px;
   height: 32px;
   padding: 10px 6px;
+  position: relative;
+    z-index: 1000;
 
   @media screen and (min-width: 1199px) {
     display: none;
