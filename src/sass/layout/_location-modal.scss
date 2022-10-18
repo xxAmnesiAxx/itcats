@@ -9,6 +9,8 @@
   min-height: 365px;
   background-color: var(--main-text-color);
 
+  transition: opacity .25s linear, visibility .25s linear;
+
   border-radius: 10px;
   padding: 28px;
   @media screen and (min-width: 1200px) {
