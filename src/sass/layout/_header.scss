@@ -49,8 +49,10 @@
 
 .nav {
   display: flex;
+  position: relative;
   align-items: flex-end;
   gap: 269px;
+  z-index: 300;
 }
 
 .nav__list {
@@ -117,11 +119,10 @@
     // margin-top: 28px;
     // margin-bottom: 4px;
   }
-  
-  &-icon{
-      fill: transparent;
-  }
 
+  &-icon {
+    fill: transparent;
+  }
 }
 
 .header__menu {
@@ -135,7 +136,7 @@
   height: 32px;
   padding: 10px 6px;
   position: relative;
-    z-index: 1000;
+  z-index: 1000;
 
   @media screen and (min-width: 1199px) {
     display: none;
