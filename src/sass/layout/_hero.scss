@@ -241,13 +241,17 @@
 
 .icon--ice-cream {
   position: absolute;
-  left: 18%;
+  left: 0;
   bottom: -53px;
 
   animation-name: tracking-in-expand-fwd-bottom;
   animation-duration: 2s;
   animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation-iteration-count: 1;
+
+  @media screen and (min-width: 338px) {
+    left: 18%;
+  }
 
   @media screen and (min-width: 768px) {
     left: 360px;
