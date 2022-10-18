@@ -177,6 +177,7 @@
 .anchors__link--underline-yellow {
   text-decoration: underline;
   color: var(--defoult-nav-text-color);
+  z-index: 3;
 
   transition: color var(--animation-fast);
 
@@ -189,69 +190,56 @@
 }
 
 .bgc-icon {
-  padding-top: 232px;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 502px;
+  background-image: url(./../images/1-hero/icecream_sm@1x.png),
+    url(./../images/1-hero/hero-bg_sm.png);
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(./../images/1-hero/icecream_sm@2x.png),
+      url(./../images/1-hero/hero-bg_sm.png);
+  }
+  background-position: left 180% bottom -87px, right 0px bottom 0px;
+  background-repeat: no-repeat;
+  background-size: contain, contain;
 
+  @media screen and (max-width: 767px) {
+    max-width: 480px;
+  }
   @media screen and (min-width: 768px) {
-    padding-top: 0;
-  }
-}
-
-.icon--bg-dots {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-
-  animation-name: dots;
-  animation-duration: 2s;
-  animation-timing-function: ease;
-  animation-iteration-count: 1;
-}
-
-@keyframes dots {
-  0% {
-    display: none;
-  }
-  10% {
-    display: block;
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.icon--ice-cream {
-  position: absolute;
-  left: 18%;
-  bottom: -53px;
-
-  animation-name: tracking-in-expand-fwd-bottom;
-  animation-duration: 2s;
-  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation-iteration-count: 1;
-
-  @media screen and (min-width: 768px) {
-    left: 360px;
-    bottom: -56px;
+    width: 768px;
+    min-height: 415px;
+    background-image: url(./../images/1-hero/icecream_md@1x.png),
+      url(./../images/1-hero/hero-bg_md.png);
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(./../images/1-hero/icecream_md@2x.png),
+        url(./../images/1-hero/hero-bg_md.png);
+    }
+    background-position: left 90% bottom -56px, right 0px bottom 0px;
+    background-repeat: no-repeat;
+    background-size: contain, contain;
   }
   @media screen and (min-width: 1200px) {
-    left: 558px;
-    bottom: -100px;
-  }
-}
-
-@keyframes tracking-in-expand-fwd-bottom {
-  0% {
-    transform: translateZ(-100%) translateY(100%);
-    opacity: 0;
-  }
-  30% {
-    opacity: 0.5;
-  }
-  100% {
-    transform: translateZ(0) translateY(0);
-    opacity: 1;
+    width: 1200px;
+    min-height: 415px;
+    background-image: url(./../images/1-hero/icecream_lg@1x.png),
+      url(./../images/1-hero/hero-bg_lg.png);
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(./../images/1-hero/icecream_lg@2x.png),
+        url(./../images/1-hero/hero-bg_lg.png);
+    }
+    background-position: left 92% bottom -86px, right 0px bottom 0px;
+    background-repeat: no-repeat;
+    background-size: contain, contain;
   }
 }
 

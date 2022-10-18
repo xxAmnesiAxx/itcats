@@ -2,6 +2,7 @@
   position: fixed;
   top: 50%;
   left: 50%;
+  z-index: 100;
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 282px;
@@ -11,6 +12,8 @@
 
   border: var(--main-modal-border);
   border-radius: 10px;
+
+  transition: opacity .25s linear, visibility .25s linear;
 
   @media screen and (min-width: 768px) {
     max-width: 570px;
