@@ -32,6 +32,7 @@
 
 
 .footer-section__title {
+  margin-bottom: 42px;
   max-width: 234px;
 
   @media screen and (min-width: 768px) {
@@ -69,7 +70,6 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-text-color);
-  margin-bottom: 42px;
 
   @media screen and(min-width: 768px) {
     font-size: 48px;
@@ -134,7 +134,7 @@
 
 .contacts-social__phone {
   display: block;
-  text-align: right;
+  text-align: center;
 
   font-size: 12px;
   font-weight: 700;
