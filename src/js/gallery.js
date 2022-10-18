@@ -6,7 +6,7 @@ $(document).ready(function(){
         autoplaySpeed: 4000,
         adaptiveHeight: true,
         infinite: true,
-        speed: 1000,
+        speed: 500,
         fade: true,
         cssEase: 'linear'
   });
