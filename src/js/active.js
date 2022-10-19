@@ -141,3 +141,31 @@ carbsOnClick.addEventListener('click', ()=> {
         carbsOnClick.classList.remove('active')
     }
 });
+
+
+let closeModal = document.querySelector('.close'); 
+ 
+    closeModal.addEventListener('click', () => { 
+        let classes = document.querySelectorAll(".no-active"); 
+        for (let one_class of classes) { 
+            one_class.classList.remove('no-active'); 
+        }    
+    });
+
+let closeIceCoffee = document.querySelector('.closes'); 
+ 
+    closeIceCoffee.addEventListener('click', () => { 
+        let clas = document.querySelectorAll(".no-active"); 
+        for (let one_clas of clas) { 
+            one_clas.classList.remove('no-active'); 
+        }    
+    });
+
+let closeMilkShakes = document.querySelector('.closess'); 
+ 
+    closeMilkShakes.addEventListener('click', () => { 
+        let cla = document.querySelectorAll(".no-active"); 
+        for (let one_cla of cla) { 
+            one_cla.classList.remove('no-active'); 
+        }    
+    });
