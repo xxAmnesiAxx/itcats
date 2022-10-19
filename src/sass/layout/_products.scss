@@ -396,6 +396,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
+  overflow: auto;
+
   background: #fcfcfc;
   border: 2px solid #f8d24e;
   border-radius: 10px;
