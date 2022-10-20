@@ -13,11 +13,13 @@
 
   border-radius: 10px;
   padding: 28px;
-  @media screen and (min-width: 1200px) {
+  border: var(--main-modal-border);
+
+    @media screen and (min-width: 768px) {
     max-width: 568px;
     max-height: 458px;
-  }
-  border: var(--main-modal-border);
+    }
+ 
 }
 
 .location-modal__close-button {
@@ -34,7 +36,7 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     top: 20px;
     right: 20px;
   }
