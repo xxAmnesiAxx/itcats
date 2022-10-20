@@ -235,7 +235,7 @@
 
 .icon--ice-cream {
   position: absolute;
-  left: 0;
+  left: 10%;
   bottom: -53px;
 
   animation-name: tracking-in-expand-fwd-bottom;
@@ -244,6 +244,10 @@
   animation-iteration-count: 1;
 
   @media screen and (min-width: 338px) {
+    left: 13%;
+  }
+
+  @media screen and (min-width: 480px) {
     left: 18%;
   }
 
